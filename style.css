@@ -1,0 +1,167 @@
+.header-navbar{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    width: 100%;
+    background-color: #BC2626;
+    justify-content: space-between;
+    height: 41px;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+.nav1-another-info{
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 540px;
+    margin-right: 55px;
+}
+.nav1-info{
+    list-style: none;
+}
+body{
+    margin: 0;
+    font-family: "Manrope";
+    
+}
+.info2{
+    position: sticky;
+    top: 0; 
+    z-index: 999999999;
+}
+.navbar-info2{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    /* background-color: yellow; */
+    position: relative;
+
+}
+.navbar-list-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    margin-right: 50px;
+    /* background-color: blue; */
+    font-weight: 600;
+    font-size: 15px;
+}
+.navbar-info2 img{
+    margin-left: 40px;
+    width: auto;
+    height: 40px;
+    margin-top: 16px;
+}
+.navbar-list{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+}
+.banner img{
+    width: 100%;
+    height: 760px;
+}
+.bgimg-section{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.bgimg{
+    opacity: 0.1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hocbong-giaithuong{
+    /* background-color: cyan; */
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    margin-top: 60px;
+}
+.hocbong-giaithuong-content{
+    /* background-color: red; */
+    display: flex;
+    width: 85%;
+    height: 100%;
+    justify-content: center;
+    /* align-items: center; */
+}
+.hocbong-giaithuong-content-text{
+    /* background-color: blue; */
+    width: 75%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 24px;
+}
+.hocbong-giaithuong-content-title{
+    font-size: 14px;
+    font-weight: 800;
+    color: #BC2626;
+    line-height: 1.2;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 19px;
+    margin: 1px;
+    /* background-color: yellow; */
+    height: 18%;
+    top: 31px;
+}
+.hocbong-giaithuong-content-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    background-color: #BC2626;;
+}
+.hocbong-giaithuong-content-title-h2{
+    /* background-color: green; */
+    font-size: 35px;
+    height: 70%;
+    margin-top: 37px;
+    margin-left: 3px;
+}
+.hocbong-giaithuong-content-text-text{
+    width: 70%;
+    /* background-color: pink; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hocbong-giaithuong-content-text-button{
+    width: 30%;
+    margin: 0;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button-h2{
+    background-color: #BC2626;
+    color: white;
+    padding: 12px 30px;    
+    font-size: 15px;
+    font-family: "Manrope";
+    cursor: pointer;
+    border: none;
+}
