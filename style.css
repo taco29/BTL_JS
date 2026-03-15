@@ -69,10 +69,10 @@ body{
     width: 100%;
     height: 760px;
 }
-.bgimg-section{
+.body1{
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 100%;
     overflow: hidden;
 }
 .bgimg{
@@ -89,7 +89,7 @@ body{
     /* background-color: cyan; */
     display: flex;
     width: 100%;
-    height: 700px;
+    height: 100%;
     justify-content: center;
     position: absolute;
     top: 0;
@@ -102,8 +102,9 @@ body{
     display: flex;
     width: 85%;
     height: 100%;
-    justify-content: center;
-    /* align-items: center; */
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
 }
 .hocbong-giaithuong-content-text{
     /* background-color: blue; */
@@ -168,4 +169,47 @@ body{
     font-family: "Manrope";
     cursor: pointer;
     border: none;
+}
+.hocbong-giaithuong-content-img{
+    width: 100%;
+    /* background-color: yellow; */
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: repeat(4,1fr); /* Tạo 4 cột có kích thước bằng nhau, mỗi cột chiếm 1 phần bằng nhau */
+    grid-template-rows: repeat(auto-fit, 260px); /* Tạo hàng tự động với chiều cao cố định là 260px */
+    gap: 30px;
+}
+.img-body1 img{
+    width: 380px;
+    height: 260px;
+    object-fit:cover;
+}
+.img-body1.tall img{
+    width: 380px;
+    height: 555px;
+    object-fit: cover;
+}
+.img-body1-1{
+    grid-column:1 / 2; /*bắt đầu từ cột 1 đến cột 2, tức là chiếm cột 1 */
+    grid-row:1 / 2; /* bắt đầu từ hàng 1 đến hàng 2, tức là chiếm hàng 1 */
+}
+.img-body1-3{
+    grid-column:2 / 3;
+    grid-row:1 / 2;
+}
+.img-body1-4{
+    grid-column:3 / 4;
+    grid-row:1 / 2;
+}
+.img-body1-2{
+    grid-column:1 / 2;
+    grid-row:2 / 3;
+}
+.img-body1-5{
+    grid-column:3 / 5;
+    grid-row:2 / 3;
+}
+.img-body1-6{
+    grid-column:4 / 5;
+    grid-row:1 / 2;
 }
